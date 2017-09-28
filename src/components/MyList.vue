@@ -13,8 +13,7 @@
 </template>
 
 <script>
-import '../assets/css/bootstrap.css';
-import '../assets/js/jquery.js'
+
 export default {
     methods: {
         jumpToDetail(index) {
@@ -45,6 +44,7 @@ export default {
     },
     mounted() {
         $('#myUnorderList').css({ color: 'green' });
+        $('img').css({ width: 50, height: 50 });
     }
 }
 </script>
